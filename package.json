@@ -1,0 +1,17 @@
+{
+  "name": "dwp-cinema-tickets",
+  "version": "1.0.0",
+  "description": "Cinema tickets coding exercise – Node.js solution",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "demo": "node src/index.js",
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --runInBand",
+    "lint": "eslint \"{src,test}/**/*.{js,mjs}\"",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "eslint": "^9.35.0",
+    "jest": "^30.1.3"
+  }
+}
